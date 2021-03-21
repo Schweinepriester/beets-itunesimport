@@ -9,9 +9,10 @@ class ItunesImportPlugin(BeetsPlugin):
 
     def album_imported(self, lib, album):
         dir = album.item_dir()
-        self._log.debug('album dir: ' + dir.decode("utf-8"))
+        dirStr = dir.decode(encoding="utf-8")
+        self._log.debug('album dir: ' + dirStr)
         if dir:
             pythoncom.CoInitialize()  # threading, added via https://stackoverflow.com/a/51240037
             itunes = win32.gencache.EnsureDispatch('iTunes.Application')
             lib = itunes.LibraryPlaylist
-            lib.AddFile(dir)
+            lib.AddFile(dirStr)

@@ -10,7 +10,7 @@ setup(
     author_email='kai.hollberg@gmail.com',
     url='https://github.com/Schweinepriester/beets-itunesimport',
     license='MIT',
-    platforms='WIN', # TODO
+    platforms='WIN',  # TODO
 
     packages=['beetsplug'],
 

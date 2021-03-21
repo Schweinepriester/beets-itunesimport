@@ -1,6 +1,5 @@
 # Notes
 
-- `Sagan - Punto Azul Pálido` seems to have failed. Perhaps because of `á` in the path? better path handling needed?
 - http://www.joshkunz.com/iTunesControl/
 - https://discussions.apple.com/thread/250208393
 - http://samsoft.org.uk/iTunes/scripts.asp
