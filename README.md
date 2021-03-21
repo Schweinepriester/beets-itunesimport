@@ -1,6 +1,6 @@
 # beets-itunesimport
 
-Plugin for beets to automatically add imported albums to iTunes, using the iTunes COM Interface on Windows.
+Plugin for [beets](https://beets.io/) to automatically add imported albums to iTunes, using the iTunes COM Interface on Windows.
 
 Only tested on Win10 with iTunes 10.7 for now.
 
