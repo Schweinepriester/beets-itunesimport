@@ -14,6 +14,10 @@ E.g.
 AttributeError: module 'win32com.gen_py.9E93C96F-CF0D-43F6-8BA8-B807A3370712x0x1x13' has no attribute 'CLSIDToClassMap'
 ```
 
+```powershell
+AttributeError: module 'win32com.gen_py.9E93C96F-CF0D-43F6-8BA8-B807A3370712x0x1x13' has no attribute 'MinorVersion'
+```
+
 Answers ([1](https://stackoverflow.com/questions/59276808/win32com-module-problems), [2](https://stackoverflow.com/questions/52889704/python-win32com-excel-com-model-started-generating-errors)) on Stack Overflow
  suggested deleting folders in
 
